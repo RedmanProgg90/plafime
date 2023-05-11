@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PLAFIME</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="logo.png">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>PLA <span class="verde">FIME</span><span></span><span class="rojo"></span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="#Bienvenido">Inicio</a>
+                    <a href="#Conocenos">Conocenos</a>
+                    <a href="#menu">Platillos</a>
+                    <a href="#Recomendado">Recomendado</a>
+                    <a href="#Contactanos">Contacto</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado" id="Bienvenido">
+                    <h2>Bienvenido!</h2>
+                    <a href="#menu" class="btn bordes"> Recetas</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="assets/gastronomia.mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor"id="Conocenos">
+        <div class="texto-nosotros">
+            <p class="bienvenida">Bienvenido a</p>
+            <h1>PLAFIME</h1>
+            <p>PLAFIME es una pagina diseñada para recomendar y guiar en la creacion de platillos Mexicanos
+            </p>
+            <a href="#Contactanos" class="btn btn-rojo">Contactar</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen1">
+                <img data-src="assets/img/1mexa.jpg" alt="mujer comiendo pizza">
+            </div>
+            <div class="imagenes2">
+                <img data-src="assets/img/2mexa.jpg" alt="mujeres comiendo pizza">
+                <img data-src="assets/img/3mexa.jpg" alt="plato con pasta">
+            </div>
+        </div>
+    </div>
+
+    <section class="menu contenedor" id="menu">
+        <h2 class="texto-platillos">Platillos populares</h2>
+        <div class="botones-platillos">
+            <button class="todos btn btn-verde">Todos</button>
+            <button class="ensaladas btn btn-verde">Desayuno</button>
+            <button class="pasta btn btn-verde">Comida</button>
+            <button class="pizza btn btn-verde">Cena</button>
+            <button class="postres btn btn-verde">Postres</button>
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/1molletes.jpg" alt="Desayuno">
+                <h2>Molletes</h2>
+                <p>Panes tipo bolillo cortado al centro de la miga y untados con frijoles refritos, gratinados con queso, y aderezado con pico de gallo (tomate, chile y cebolla picados). </p>
+                <div class="precio">
+                    <p>Desayuno</p>
+                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/2chilaquiles.jpg" alt="Desayuno">
+                <h2>Chilaquiles verdes</h2>
+                <p>Pedazos de tortilla de maíz frita, salsa verde, crema de leche, cebolla, queso blanco, y opcionalmente huevo o pollo deshebrado.</p>
+                <div class="precio">
+                    <p>Desayuno</p>
+                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/3huevos.jpg" alt="Desayuno">
+                <h2>Huevos a la mexicana</h2>
+                <p>Combinación de huevos revueltos con tomate, cebolla y chile picados y fritos .</p>
+                <div class="precio">
+                    <p>Desayuno</p>
+                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/4tacos.jpg" alt="Comida">
+                <h2>Tacos al pastor</h2>
+                <p>Carne adobada, asada, servida en finas rebanadas sobre pequeñas tortillas de maíz, la carne puede ser una combinación de carne de cerdo y carne de ternera o puerco.</p>
+                <div class="precio">
+                    <p>Comida</p>
+                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/5mole.jpg" alt="Comida">
+                <h2>Mole poblano</h2>
+                <p>Consiste principalmente en una salsa de una gran variedad de ingredientes vertida sobre piezas de pollo</p>
+                <div class="precio">
+                    <p>Comida</p>
+                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/6chiles.jpg" alt="Comida">
+                <h2>Chiles en nogada</h2>
+                <p>Chile poblano, relleno de un guisado de picadillo y frutas cubierto con crema de nuez de Castilla (nogada), hojas de perejil y granos de granada. </p>
+                <div class="precio">
+                    <p>Comida</p>
+                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/7birria.jpg" alt="Cena">
+                <h2>Birria</h2>
+                <p>Plato a base de carne de borrego originalmente (aunque también se prepara con carne de res), adobado con una preparación a base de algunos tipos de chiles, condimentos y sal.</p>
+                <div class="precio">
+                    <p>Cena</p>
+                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/8enfrijoladas.jpg" alt="Cena">
+                <h2>Enfrijoladas</h2>
+                <p>Tortilla media frita sumergida en un caldo espeso de frijoles molidos, enrolladas o dobladas, servidos con queso, cebolla y crema.</p>
+                <div class="precio">
+                    <p>Cena</p>
+                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/9quesabirrias.jpg" alt="Cena">
+                <h2>Quesabirrias</h2>
+                <p>Tacos de birria bañados en salsa de chiles y especias atiborrado de queso, doraditas por fuera y suaves por dentro.</p>
+                <div class="precio">
+                    <p>Cena</p>
+                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/10pastel.jpg" alt="postre">
+                <h2>Pastel 3 leches</h2>
+                <p>Bizcocho bañado con tres tipos de leche: leche evaporada, crema de leche y leche condensada.</p>
+                <div class="precio">
+                    <p>Postre</p>
+                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/11arroz.jpg" alt="postre">
+                <h2>Arroz con leche</h2>
+                <p>Arroz cocido en leche con azúcar, canela, pasas y leche condensada.</p>
+                <div class="precio">
+                    <p>Postre</p>
+                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/12capirotada.jpg" alt="postre">
+                <h2>Capirotada</h2>
+                <p>Pan tostado, o añejado hasta que se deshidrata, cortado en rodajas puestas a cocer junto con trozos de plátano, pasas, nueces, guayaba y cacahuates, cubierto con jarabe de piloncillo y queso de mesa rallado.</p>
+                <div class="precio">
+                    <p>Postre</p>
+                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador" id="Recomendado">
+        <div class="contenido-separador contenedor">
+            <h2>Desayuno Mexicano para empezar el día</h2>
+            <p>Empieza tu día comiendo un desayuno muy Mexicano: Chilaquiles verdes.</p>
+            <a href="#" class="btn btn-verde">Ver ahora</a>
+        </div>
+    </div>
+
+    <section class="chef contenedor" >
+        <h2>Platillo más recomendando</h2>
+        <div class="contenido-chef" >
+            <div class="texto-chef">
+                <h3>Tacos al pastor
+                </h3>
+                <p>Si los habitantes de la Ciudad de México tuvieran que llevarse una sola comida a una isla desierta, muy probablemente sería ésta. Están influenciados por la cocina del Imperio Otomano, y mezclan carne marinada de puerco en trompo (sí, parecido al de shawarma) con tortilla de maíz, piña, cebolla, cilantro, y dosis al gusto de limón y salsa picante.</p>
+                <p>&nbsp;</p>
+                <a href="#" class="btn btn-verde">Leer Receta</a>
+            </div>
+            <div class="imagen-cochinita">
+                <img data-src="assets/img/tacosalpastor.jpg" alt="Cochinita pibil">
+            </div>
+        </div>
+    </section>
+
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto"id="Contactanos">
+            <h3>Recomiendanos un platillo</h3>
+            <p><i class="fas fa-map-marker-alt"> Pedro de Alba SN, Niños Héroes, Ciudad Universitaria</i></p>
+            <p><i class="fas fa-envelope"></i> plafime@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>+81123410921</p>
+            <div class="redes-sociales">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Nombre" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellido</label>
+                <input type="text" placeholder="Apellido" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" placeholder="+81 543 779 9410" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn btn-verde" value="Enviar">
+            </div>
+            
+        </form>
+    </div>
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>PLAFIME</h3>
+                <p>Proyecto para la Facultad de Ingenieria Mecanica y Electrica Enero-Julio 2023</p>
+            </div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+        </footer>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
